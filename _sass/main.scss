@@ -1,0 +1,14 @@
+main {
+  background-color: #a95b0d;
+  display: flex;
+  text-align: center;
+  article {
+    background-color: #78b41d;
+    flex: 1;
+
+  }
+  aside {
+    background-color: #b2a619;
+    flex: 1;
+  }
+}
