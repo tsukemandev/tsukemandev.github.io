@@ -5,11 +5,20 @@
 @import "main";
 @import "footer";
 
+:root {
+  --color1 : #000000;
+  --color2 : #14213D;
+  --color3 : #FCA311;
+  --color4 : #E5E5E5;
+  --color5 : #FFFFFF;
+}
+
+
 body {
   max-width: 900px;
   margin: auto;
-  background-color: #3f3f3f;
   font-size: 15px;
+  background-color: #172544;
 }
 
 @media screen and (max-width: 700px) {
