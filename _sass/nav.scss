@@ -3,5 +3,14 @@ nav {
   font-size : 2em;
   line-height: 2em;
   color: var(--color1);
-  background-color: var(--color3)
+  background-color: var(--color3);
+  display: flex;
+  span {
+    position: relative;
+    left : 50px;
+    margin-right: 20px;
+    font: small-caps bold 0.7em sans-serif;
+    line-height: 2em;
+  }
+
 }
