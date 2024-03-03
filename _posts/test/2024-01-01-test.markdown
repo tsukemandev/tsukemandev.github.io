@@ -1,9 +1,10 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "test1"
 permalink: /test1
 date:   2024-01-01 22:04:15 +0900
 categories: jekyll update
+thumbnail: /test-img/advertise+icon+as+music.gif
 ---
 
 # Welcome

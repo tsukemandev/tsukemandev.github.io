@@ -1,16 +1,76 @@
-<!doctype html>
-<html>
-<head>
-    <meta charset="utf-8">
-    <title>블로그</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/styles.css">
-</head>
-<body>
+---
+layout: default
+---
 
-    {% include header.html %}
-    {% include nav.html %}
-    {% include article.html %}
-    {% include footer.html %}
-</body>
-</html>
+<style>
+    /* style.css */
+    body {
+        font-family: Arial, sans-serif;
+    }
+
+    article {
+        background-color: rgb(206, 206, 206);
+        padding : 0;
+    }
+
+    .post-title h1 {
+        font-size: 2em;
+        color: #333;
+    }
+
+    .meta-info {
+        font-size: 0.9em;
+        color: #666;
+    }
+
+    .content {
+        margin-top: 20px;
+    }
+
+    .comments {
+        margin-top: 40px;
+        background-color: #f0f0f0;
+        padding: 20px;
+    }
+
+    .comment {
+        margin-bottom: 10px;
+        padding: 10px;
+        background-color: white;
+    }
+</style>
+
+<article>
+    <div class="post-title">
+        <h1>{{ page.title }}</h1>
+        <div class="meta-info">
+            <span>Published on: <time>{{ page.date: "%B %d, %Y" }}</time></span>
+            <span>{{ page.author }}</span>
+        </div>
+    </div>
+    <div class="content">
+            {{ content }}
+    </div>
+    <section class="comments" id="comments">
+        <!-- Comments will be loaded here -->
+    </section>
+</article>
+<script>
+    // script.js
+    document.addEventListener("DOMContentLoaded", function () {
+        // Placeholder for comment fetching logic
+        const commentsSection = document.getElementById("comments");
+        const comments = [
+            { author: "Alice", content: "Great read!" },
+            { author: "Bob", content: "Very informative, thanks." }
+        ];
+
+        comments.forEach(comment => {
+            const commentElement = document.createElement("div");
+            commentElement.classList.add("comment");
+            commentElement.innerHTML = `<strong>${comment.author}</strong>: ${comment.content}`;
+            commentsSection.appendChild(commentElement);
+        });
+    });
+
+</script>

@@ -1,9 +1,16 @@
+body {
+  .wrapper {
+    height: 100vh;
+    background-color: var(--color2);
+  }
+}
+
+
 main {
-  background-color: #a95b0d;
+  background-color: var(--color2);
   text-align: center;
 
   section {
-    padding-top : 50px;
     display: flex;
     flex-wrap: wrap;
     background-color: var(--color2);
@@ -26,8 +33,6 @@ main {
   .post_detail {
     color: white;
   }
-
-  height: 100%;
 }
 
 

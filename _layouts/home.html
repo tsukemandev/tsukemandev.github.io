@@ -1,10 +1,14 @@
+---
+layout: default
+---
+
 <main>
     <article style="background-color: var(--color4)">
         <section>
 
             {% for post in site.posts %}
                 <article class="post col-3 col-s-4 col-sm-6">
-                    <img src="https://tsukemendog-github-bucket.s3.ap-northeast-2.amazonaws.com/test-img/Cute+Pandas+Enjoy+Ramen.gif" alt=""/>
+                    <img src="{{ post.thumbnail | prepend: site.image_base_url | replace: '//', '/' }}" alt=""/>
                     <div class="">{{ post.title }}</div>
                 </article>
             {% endfor %}

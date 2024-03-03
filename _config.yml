@@ -18,15 +18,16 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: 츠케맨
+title: 츠케맨zzz
 email: tsukemendog@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   다양한 기술을 공부하며 기록하는 블로그
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://localhost:4000" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 github_username:  tsukemendog
 
+image_base_url: https://tsukemendog-github-bucket.s3.ap-northeast-2.amazonaws.com
 sass:
   sass_dir: _sass
 
