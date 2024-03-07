@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  "test2"
-permalink: /test2
+permalink: /:categories/t2
 date:  2023-11-15 22:04:15
-categories: jekyll update
+categories: r
 thumbnail: /test-img/Cute+Pandas+Enjoy+Ramen.gif
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.

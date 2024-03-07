@@ -13,6 +13,10 @@ layout: default
         padding : 10px 20px 20px 20px;
     }
 
+    .post-title {
+        padding-bottom: 20px;
+    }
+
     .post-title h1 {
         font-size: 2em;
         color: #333;
@@ -21,6 +25,7 @@ layout: default
     .meta-info {
         font-size: 0.9em;
         color: #666;
+        text-align: end;
     }
 
     .content {
@@ -38,13 +43,18 @@ layout: default
         padding: 10px;
         background-color: white;
     }
+
+    .line {
+        border-bottom: #333 solid 1px;
+    }
 </style>
 
 <article>
     <div class="post-title">
         <h1>{{ page.title }}</h1>
+        <p class="line"></p>
         <div class="meta-info">
-            <span>Published on: <time>{{ page.date: "%B %d, %Y" }}</time></span>
+            <span>Published on: <time>{{ page.date | date: "%B %d, %Y" }}</time></span>
             <span>{{ page.author }}</span>
         </div>
     </div>
