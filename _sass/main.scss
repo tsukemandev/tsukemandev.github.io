@@ -15,6 +15,11 @@ main {
     flex-wrap: wrap;
     background-color: var(--color2);
   }
+  
+  a {
+    color : white;
+    text-decoration: none;
+  }
 
   article {
     background-color: var(--color2);

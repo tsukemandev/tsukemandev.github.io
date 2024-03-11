@@ -1,6 +1,13 @@
+{% assign parts = page.url | split: '/' %}
+{% if parts.size > 1 %}
+  {% assign lang_code = parts[1] %}
+{% endif %}
+
+
+
+
 <nav>
-    <span>EC2</span>
-    <span>S3</span>
-    <span>RDS</span>
-    <span>IAM</span>
+    <a href="{% if lang_code == 'en' %}/en/category/ec2 {% else %} /ko/category/ec2{% endif %}"><span>EC2</span></a>
+    <a href="{% if lang_code == 'en' %}/en/category/s3 {% else %} /ko/category/s3{% endif %}"><span>S3</span></a>
+    <a href="{% if lang_code == 'en' %}/en/category/iam {% else %} /ko/category/iam{% endif %}"><span>IAM</span></a>
 </nav>

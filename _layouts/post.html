@@ -61,26 +61,4 @@ layout: default
     <div class="content">
             {{ content }}
     </div>
-    <section class="comments" id="comments">
-        <!-- Comments will be loaded here -->
-    </section>
 </article>
-<script>
-    // script.js
-    document.addEventListener("DOMContentLoaded", function () {
-        // Placeholder for comment fetching logic
-        const commentsSection = document.getElementById("comments");
-        const comments = [
-            { author: "Alice", content: "Great read!" },
-            { author: "Bob", content: "Very informative, thanks." }
-        ];
-
-        comments.forEach(comment => {
-            const commentElement = document.createElement("div");
-            commentElement.classList.add("comment");
-            commentElement.innerHTML = `<strong>${comment.author}</strong>: ${comment.content}`;
-            commentsSection.appendChild(commentElement);
-        });
-    });
-
-</script>

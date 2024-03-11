@@ -3,7 +3,7 @@ layout: post
 title:  "test2"
 permalink: /:categories/t2
 date:  2023-11-15 22:04:15
-categories: r
+categories: s3
 excerpt: 테스트2 페이지입니다~!!
 thumbnail: /test-img/Cute+Pandas+Enjoy+Ramen.gif
 ---

@@ -5,6 +5,12 @@ nav {
   color: var(--color1);
   background-color: var(--color3);
   display: flex;
+
+  a {
+    color: #474747;
+    text-decoration: none;
+  }
+
   span {
     position: relative;
     left : 50px;

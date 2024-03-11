@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  "test1"
-permalink: /test1
+permalink: /:categories/t1
 date:   2024-01-01 22:04:15 +0900
-categories: jekyll update
+categories: s3 iam
 thumbnail: /test-img/advertise+icon+as+music.gif
 ---
 
