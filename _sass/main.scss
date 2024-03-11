@@ -24,6 +24,10 @@ main {
   article {
     background-color: var(--color2);
 
+    .article-title {
+      padding: 1em;
+    }
+
     img {
       width : 200px;
       height: auto;

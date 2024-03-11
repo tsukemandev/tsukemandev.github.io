@@ -1,22 +1,24 @@
 nav {
   text-align: center;
   font-size : 2em;
-  line-height: 2em;
   color: var(--color1);
   background-color: var(--color3);
   display: flex;
+  padding-left: 50px;
 
   a {
     color: #474747;
     text-decoration: none;
+    text-align: center;
+    position: relative;
+    span {
+      
+      margin-right: 20px;
+      font: small-caps bold 0.7em sans-serif;
+      line-height: 2em;
+    }
   }
 
-  span {
-    position: relative;
-    left : 50px;
-    margin-right: 20px;
-    font: small-caps bold 0.7em sans-serif;
-    line-height: 2em;
-  }
+
 
 }
