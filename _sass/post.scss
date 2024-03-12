@@ -10,12 +10,8 @@ article {
     position: relative;
     margin-top: 20px;
 
-    ol {
-        list-style-position: inside; /* 기호나 숫자를 내용과 동일한 라인에 배치 */
-    }
 
     ol li {
-        padding: 5px; /* 내부 여백 추가 */
         line-height: 1.5; /* 줄 간격 조정 */
     }
 

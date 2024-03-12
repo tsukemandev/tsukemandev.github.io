@@ -4,7 +4,7 @@ title:  "HLS 스트리밍을 위한 Nginx 컴파일 설치하기"
 permalink: /ko/:categories/install-nginx-compile
 date:  2023-11-15 22:04:15
 categories: linux nginx hls
-excerpt: 이 포스팅에서는 Nginx의 무료 버전 사용자가 HLS 스트리밍을 위해 필요한 nginx-rtmp-module 확장 모듈을 사용하기 위해 Nginx를 컴파일 설치하는 과정을 상세하게 설명합니다. 설치 전 필요한 종속성 설치부터 시작하여 Nginx와 nginx-rtmp-module의 소스 코드 다운로드, 필수 라이브러리 설치, 최종 컴파일 및 설치 과정을 단계별로 안내합니다. 본문은 사용자가 소스 코드로부터 직접 Nginx를 컴파일하는 이유와 필요한 사전 준비 작업, 필수 라이브러리 설치 방법, 컴파일과 최종 설치 방법까지 모두 다루며, nginx-rtmp-module의 공식 문서를 참조할 것을 권장합니다.
+excerpt:  Nginx를 컴파일 설치하는 과정을 설명하며, HLS 스트리밍을 위해 필요한 nginx-rtmp-module 확장 모듈을 추가하는 방법을 제공합니다. 필요한 종속성 설치부터 Nginx 및 모듈의 컴파일과 설치까지의 단계를 상세히 다룹니다.
 thumbnail: /linux/nginx/hls/hls_thumbnail_01.jpg
 ---
 
