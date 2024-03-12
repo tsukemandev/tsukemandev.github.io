@@ -5,10 +5,36 @@
 
 article {
     background-color: rgb(206, 206, 206);
-    padding : 20px 20px 20px 20px;
+    padding : 1px 20px 20px 20px;
 
     position: relative;
     margin-top: 20px;
+
+    ol li {
+        height: 30px;
+    }
+
+    pre code {
+        display: block; /* Ensures the code block is displayed as a block-level element */
+        background-color: #333; /* Dark background for contrast */
+        color: #f8f8f2; /* Light color for the text */
+        padding: 15px; /* Adds padding inside the code block */
+        margin: 1em 0; /* Adds margin above and below the code block */
+        overflow-x: auto; /* Adds a horizontal scrollbar if the code is too wide */
+        border-radius: 5px; /* Rounded corners for the code block */
+        font-family: 'Courier New', Courier, monospace; /* Monospaced font for code */
+        font-size: 0.95em; /* Slightly smaller font size than the surrounding text */
+        line-height: 1.45; /* Adjusts the line height for better readability */
+        white-space: pre-wrap; /* Ensures that lines wrap and whitespace is preserved */
+        word-break: break-all; /* Allows long words to break and wrap to the next line */
+        word-wrap: break-word; /* Older browsers support for word breaking */
+    }
+      
+      /* Optional: Style for JavaScript code, if you want to differentiate it */
+      pre[data-lang="javascript"] code {
+        border-left: 5px solid #f7df1e; /* Adds a left border to indicate JavaScript */
+      }
+
 }
 
 .post-title {

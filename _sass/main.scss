@@ -24,11 +24,14 @@ main {
     position: relative;
 
     .article-title {
-      padding: 1em;
+      padding: 5px;
       color: black;
       overflow: hidden;
       text-overflow: ellipsis;
       white-space: nowrap;
+      font-weight: bold;
+      width: 200px;
+      text-align: start;
     }
 
     .article-date {
@@ -81,7 +84,6 @@ main {
   main {
 
     article {
-      background-color: var(--color2);
 
       img {
         width : 180px;
