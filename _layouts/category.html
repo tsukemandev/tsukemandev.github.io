@@ -3,20 +3,19 @@ layout: default
 ---
 
 <main>
-    <article style="background-color: var(--color4)">
-        <section>
-
-            {% for post in site.posts %}
-                {% if post.categories contains page.category %}
-                    <article class="post col-3 col-s-4 col-sm-6">
-                        <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
-                            <img src="{{ post.thumbnail | prepend: site.image_base_url | replace: '//', '/' }}" alt=""/>
-                            <div class="article-title">{{ post.title }}</div>
-                        </a>
-                    </article>
-                {% endif %}
-            {% endfor %}
-
-        </section>
-    </article>
+  <article style="background-color: var(--color4)">
+    <section>
+      {% for post in site.posts %} {% if post.categories contains page.category%}
+      <article class="post col-3 col-s-4 col-sm-6">
+        <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
+          <!--<img src="{{ post.thumbnail | prepend: site.image_base_url | replace: '//', '/' }}" alt=""/>-->
+          <img src="/assets/img/{{ post.thumbnail }}" alt="thumbnail image" />
+          
+          <div class="article-title">{{ post.title }}</div>
+          <div class="article-date"><time>{{ post.date | date: "%B %d, %Y" }}</time></div>
+        </a>
+      </article>
+      {% endif %} {% endfor %}
+    </section>
+  </article>
 </main>

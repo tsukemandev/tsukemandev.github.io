@@ -18,10 +18,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: 그라라라
+title: SizzleCode Kitchen
 email: tsukemendog@gmail.com
-description:        My IT Review Blog
-author:             MoonSu KWON
+description:        IT Tech and Diary
+author:             MS KWON
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://localhost:4000" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
@@ -39,6 +39,12 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
+
+defaults:
+  - scope:
+      path: "assets/img"
+    values:
+      image: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.

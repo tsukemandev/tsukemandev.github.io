@@ -5,7 +5,6 @@ body {
   }
 }
 
-
 main {
   background-color: var(--color2);
   text-align: center;
@@ -13,7 +12,6 @@ main {
   section {
     display: flex;
     flex-wrap: wrap;
-    background-color: var(--color2);
   }
   
   a {
@@ -22,10 +20,22 @@ main {
   }
 
   article {
-    background-color: var(--color2);
+    background-color: rgb(214, 214, 214);
+    position: relative;
 
     .article-title {
       padding: 1em;
+      color: black;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .article-date {
+      text-align: end;
+      color: black;
+      font-size:10px;
+      width: 200px;
     }
 
     img {
@@ -42,8 +52,8 @@ main {
   .post_detail {
     color: white;
   }
-}
 
+}
 
 
 /* 출처 W3C School */
