@@ -10,8 +10,13 @@ article {
     position: relative;
     margin-top: 20px;
 
+    ol {
+        list-style-position: inside; /* 기호나 숫자를 내용과 동일한 라인에 배치 */
+    }
+
     ol li {
-        height: 30px;
+        padding: 5px; /* 내부 여백 추가 */
+        line-height: 1.5; /* 줄 간격 조정 */
     }
 
     pre code {
@@ -98,4 +103,19 @@ blockquote {
 .divide-line {
     border-bottom : 1px solid rgb(114, 114, 114);
     height : 20px;
+}
+
+
+@media (max-width: 600px) {
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    li {
+      margin-bottom: 10px; /* 아래 여백 추가 */
+      font-size: 14px; /* 모바일 화면에서의 글꼴 크기 */
+      line-height: 1.4; /* 모바일 화면에서의 줄 간격 */
+    }
 }

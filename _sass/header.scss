@@ -5,3 +5,10 @@ header {
   color: var(--color5);
   background-color: var(--color2);
 }
+
+
+@media (max-width: 600px) {
+  header {
+    font-size : 2em;
+  }
+}
