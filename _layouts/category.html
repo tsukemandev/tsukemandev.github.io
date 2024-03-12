@@ -5,7 +5,7 @@ layout: default
 <main>
   <article style="background-color: var(--color4)">
     <section>
-      {% for post in site.posts %}
+      {% for post in site.posts %} {% if post.categories contains page.category%}
       <article class="post col-3 col-s-4 col-sm-6">
         <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
           <!--<img src="{{ post.thumbnail | prepend: site.image_base_url | replace: '//', '/' }}" alt=""/>-->
@@ -15,7 +15,7 @@ layout: default
           <div class="article-date"><time>{{ post.date | date: "%B %d, %Y" }}</time></div>
         </a>
       </article>
-      {% endfor %}
+      {% endif %} {% endfor %}
     </section>
   </article>
 </main>

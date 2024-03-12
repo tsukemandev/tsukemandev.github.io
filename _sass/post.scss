@@ -1,0 +1,121 @@
+ /* style.css */
+ body {
+    font-family: Arial, sans-serif;
+}
+
+article {
+    background-color: rgb(206, 206, 206);
+    padding : 1px 20px 20px 20px;
+
+    position: relative;
+    margin-top: 20px;
+
+    ol {
+        list-style-position: inside; /* 기호나 숫자를 내용과 동일한 라인에 배치 */
+    }
+
+    ol li {
+        padding: 5px; /* 내부 여백 추가 */
+        line-height: 1.5; /* 줄 간격 조정 */
+    }
+
+    pre code {
+        display: block; /* Ensures the code block is displayed as a block-level element */
+        background-color: #333; /* Dark background for contrast */
+        color: #f8f8f2; /* Light color for the text */
+        padding: 15px; /* Adds padding inside the code block */
+        margin: 1em 0; /* Adds margin above and below the code block */
+        overflow-x: auto; /* Adds a horizontal scrollbar if the code is too wide */
+        border-radius: 5px; /* Rounded corners for the code block */
+        font-family: 'Courier New', Courier, monospace; /* Monospaced font for code */
+        font-size: 0.95em; /* Slightly smaller font size than the surrounding text */
+        line-height: 1.45; /* Adjusts the line height for better readability */
+        white-space: pre-wrap; /* Ensures that lines wrap and whitespace is preserved */
+        word-break: break-all; /* Allows long words to break and wrap to the next line */
+        word-wrap: break-word; /* Older browsers support for word breaking */
+    }
+      
+
+}
+
+.post-title {
+    padding-bottom: 20px;
+}
+
+.post-title h1 {
+    font-size: 2em;
+    color: #333;
+}
+
+.meta-info {
+    font-size: 0.9em;
+    color: #666;
+    text-align: end;
+}
+
+.content {
+    margin-top: 20px;
+}
+
+.comments {
+    margin-top: 40px;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.comment {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: white;
+}
+
+.line {
+    border-bottom: #333 solid 1px;
+}
+
+
+
+blockquote {
+    margin: 20px 0;
+    padding: 20px;
+    background: #fff;
+    border-left: 5px solid #007bff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  
+    p {
+      margin: 0;
+      color: #555;
+      font-size: 16px;
+    }
+  
+    footer {
+      margin-top: 10px;
+      font-style: italic;
+      color: #007bff;
+    }
+  
+    cite {
+      font-weight: bold;
+    }
+}
+
+
+.divide-line {
+    border-bottom : 1px solid rgb(114, 114, 114);
+    height : 20px;
+}
+
+
+@media (max-width: 600px) {
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    li {
+      margin-bottom: 10px; /* 아래 여백 추가 */
+      font-size: 14px; /* 모바일 화면에서의 글꼴 크기 */
+      line-height: 1.4; /* 모바일 화면에서의 줄 간격 */
+    }
+}
