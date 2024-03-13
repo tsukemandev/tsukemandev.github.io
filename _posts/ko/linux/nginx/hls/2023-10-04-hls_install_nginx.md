@@ -167,4 +167,3 @@ $ sudo /usr/local/nginx/sbin/nginx  //Nginx 서버를 실행합니다.
 $ ps aux | grep nginx  //현재 진행중 프로세스를 확인합니다.
 ```
 
-sudo /usr/local/nginx/sbin/nginx 가 아닌 **systemctl** 등으로 실행시키고 싶다면 추후 전역실행설정을 하시면 됩니다.
