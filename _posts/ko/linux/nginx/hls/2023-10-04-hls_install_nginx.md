@@ -167,3 +167,4 @@ $ sudo /usr/local/nginx/sbin/nginx  //Nginx 서버를 실행합니다.
 $ ps aux | grep nginx  //현재 진행중 프로세스를 확인합니다.
 ```
 
+<br>
