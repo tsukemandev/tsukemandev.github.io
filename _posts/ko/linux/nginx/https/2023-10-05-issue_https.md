@@ -163,3 +163,26 @@ If you like Certbot, please consider supporting our work by:
 ![HTTPS 인증서 발급이후 서버요청화면](/assets/img/linux/nginx/https/nginx_issued_cert_html.jpg)
 
 이후 https 주소로 요청을 해보시면 요청이 성공한것을 확인할수 있습니다.
+
+<div class="divide-line"></div>
+
+### 인증서 재갱신하기
+
+>Let's Encrypt 는 무료지만 인증서의 유효기간이 3개월뿐이라는 단점이 있습니다.
+그래서 CertBot 에서는 자동발급한 인증서에 대해서 자동갱신도 설정해줍니다.
+
+해당 포스팅에서 진행한 내용도 **자동발급**에 대한 내용이니 **자동갱신설정**도 certbot 에서 설정해주었을겁니다.
+
+```bash
+$ sudo certbot renew --dry-run
+```
+
+위 명령어는 재갱신 테스트 명령어인데 성공적으로 success 메시지가 나오면 자동갱신에 아무문제가 없다는 것입니다.
+
+마지막으로 **snap** 패키지관리자로 certbot 을 설치하였다면 재갱신 타이머는 crontab 이 아닌 systemd 로 수행될 것 입니다.
+
+```bash
+$ systemctl list-timers | grep certbot
+```
+
+위 명령어로 타이머 설정을 확인할 수 있습니다.
