@@ -23,8 +23,8 @@ email: tsukemendog@gmail.com
 description:        IT Tech and Diary
 author:             MS KWON
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://localhost:4000" # the base hostname & protocol for your site, e.g. http://example.com
-# url: "https://tsukemendog.github.io"
+# url: "http://localhost:4000" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://tsukemendog.github.io"
 # twitter_username: jekyllrb
 github_username:  tsukemendog
 
