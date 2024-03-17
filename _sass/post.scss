@@ -53,7 +53,7 @@ article {
     margin-top: 20px;
 
     p > img {
-        width: 860px;
+        width: 100%
     }
 }
 
@@ -108,10 +108,10 @@ blockquote {
 
 @media (max-width: 600px) {
 
-    img {
+    /*img {
         width: 100% !important;
         height: auto !important;
-    }
+    }*/
 
     li {
       margin-bottom: 10px; /* 아래 여백 추가 */
