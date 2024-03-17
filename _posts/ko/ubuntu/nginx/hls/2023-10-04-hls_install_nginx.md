@@ -3,13 +3,13 @@ layout: post
 title:  "HLS 스트리밍을 위한 Nginx 컴파일 설치하기"
 permalink: /ko/:categories/install-nginx-compile
 date:  2023-10-04 19:04:15
-categories: linux nginx hls
+categories: ubuntu nginx hls
 excerpt:  Nginx를 컴파일 설치하는 과정을 설명하며, HLS 스트리밍을 위해 필요한 nginx-rtmp-module 확장 모듈을 추가하는 방법을 제공합니다. 필요한 종속성 설치부터 Nginx 및 모듈의 컴파일과 설치까지의 단계를 상세히 다룹니다.
-thumbnail: /linux/nginx/hls/hls_thumbnail_01.jpg
+thumbnail: /ubuntu/nginx/hls/hls_thumbnail_01.jpg
 ---
 
 
-![HLS Thumbnail Image](/assets/img/linux/nginx/hls/hls_thumbnail_01.jpg)
+![HLS Thumbnail Image](/assets/img/ubuntu/nginx/hls/hls_thumbnail_01.jpg)
 
 ## 왜 Nginx 를 일반설치가 아닌 컴파일 설치를 하여야 하는가?
 
@@ -135,7 +135,7 @@ $ sudo ./configure
 해당 명령어를 입력하면 밑의 이미지와 같은 메시지들이 나타날 것입니다.
 
 
-![Configure complete message before compile nginx](/assets/img/linux/nginx/hls/log_configured_compile.jpg)
+![Configure complete message before compile nginx](/assets/img/ubuntu/nginx/hls/log_configured_compile.jpg)
 
 **nginx path prefix** 는 **/usr/local/nginx** 라는 경로가 prefix 로 기본설정 되었으며 나머지 설정파일이나 바이너리 등등이 해당 prefix 경로 뒤에 설정되었다며 알려줍니다.
 
@@ -168,3 +168,6 @@ $ ps aux | grep nginx  //현재 진행중 프로세스를 확인합니다.
 ```
 
 <br>
+
+
+<a href="{{ site.url }}/ko/ubuntu/nginx/hls/encoding">3부가기</a>

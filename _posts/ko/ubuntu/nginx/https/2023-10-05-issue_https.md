@@ -3,13 +3,13 @@ layout: post
 title:  "Nginx 웹 서버에 Let's Encrypt 무료 HTTPS 인증서 발급"
 permalink: /ko/:categories/issue
 date:  2023-10-05 22:04:15
-categories: linux nginx https
+categories: ubuntu nginx https
 excerpt: Nginx 서버에 Let's Encrypt를 통해 무료 HTTPS 인증서를 발급받고 설정하는 방법을 단계별로 안내합니다. SSL/TLS 인증서를 통해 웹 사이트의 보안을 강화하는 과정을 설명합니다.
-thumbnail: /linux/nginx/https/lets-encrypt-logo.png
+thumbnail: /ubuntu/nginx/https/lets-encrypt-logo.png
 ---
 
 
-![Let's Encrypt Logo Image](/assets/img/linux/nginx/https/lets-encrypt-logo.png)
+![Let's Encrypt Logo Image](/assets/img/ubuntu/nginx/https/lets-encrypt-logo.png)
 
 ## HTTPS 기본 개념
 
@@ -34,7 +34,7 @@ Let'sEncrypt는 무료, 자동, 개방형 인증서 발급 기관(CA)으로, 인
 
 ## Nginx 웹 서버에 Let's Encrypt 인증서 발급하기
 
-![Nginx 최초 진입화면](/assets/img/linux/nginx/https/nginx_entry_html.jpg)
+![Nginx 최초 진입화면](/assets/img/ubuntu/nginx/https/nginx_entry_html.jpg)
 
 Nginx 설치를 끝낸 직후 최초로 요청한 화면입니다.
 현재까지 인증서를 발급받지 않아 브라우저에서 경고창을 띄웁니다.
@@ -160,7 +160,7 @@ If you like Certbot, please consider supporting our work by:
 이후 이러한 메시지가 나타난다면 인증서 발급이 성공적으로 끝난것입니다.
 
 
-![HTTPS 인증서 발급이후 서버요청화면](/assets/img/linux/nginx/https/nginx_issued_cert_html.jpg)
+![HTTPS 인증서 발급이후 서버요청화면](/assets/img/ubuntu/nginx/https/nginx_issued_cert_html.jpg)
 
 이후 https 주소로 요청을 해보시면 요청이 성공한것을 확인할수 있습니다.
 
