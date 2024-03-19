@@ -1,3 +1,13 @@
+---
+layout: post
+title:  "S3 CORS 문제로 인해 Cloud Front 리소스 차단문제 해결방법"
+permalink: /ko/:categories/cors
+date:  2023-10-05 22:04:15
+categories: aws s3 cloudfront issue
+excerpt: S3 CORS 문제로 인해 Cloud Front 리소스 차단문제 해결방법
+thumbnail: /aws/s3/amazon-s3-logo.svg
+---
+
 
 https://d1buzuj0s6bbq3.cloudfront.net/hungry-days-bump-of-chicken.m3u8
 https://d2zihajmogu5jn.cloudfront.net/bipbop-advanced/bipbop_16x9_variant.m3u8
