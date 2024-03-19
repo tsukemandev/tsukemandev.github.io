@@ -67,3 +67,59 @@ DevTools가 열리며, Elements 도구의 DOM 트리에서 오른쪽 클릭된 �
 ![Open Devtools used to right click!](/assets/img/devtools/open_devtools_browsertoolbar1.png)
 
 브라우저 툴바에서 ... 버튼 (설정 및 기타) 을 클릭 > 기타도구 > 개발자 도구를 클릭합니다.
+
+<div class="divide-line"></div>
+
+### 줌인(ZoomIn) 과 줌아웃(ZoomOut)
+
+Devtools 의 UI는 일반 웹 페이지처럼 HTML과 CSS로 구현되어져 있습니다. 그래서 표준 키보드의 단축키로 줌인과 줌아웃을 할 수 있습니다. Devtools와 렌더링된 페이지의 줌 레벨은 독립적입니다.
+
+
+#### 브라우저의 DevTools 부분을 확대하려면
+
+1. 만약 Devtools가 미리 포커싱 되어져 있지않다면 Devtools 의 아무곳이나 클릭해줍니다.
+2. Press Ctrl + + or Ctrl + - (Windows or Linux). Or, press Command + + or Command + - (macOS). 
+
+![Zoom Devtools](/assets/img/devtools/zoom-devtools1.png)
+
+
+렌더링된 페이지를 줌하려면, 페이지를 클릭하고, 위와 같은 키보드 단축키를 사용합니다.
+
+<div class="divide-line"></div>
+
+#### 줌 100%로 복원하기
+
+1. Devtools나 렌더링된 페이지 중 브라우저의 원하는 부분에 포커싱되어져있는지 확인합니다.
+2. Press Ctrl+0 or Ctrl+NumPad0 (Windows or Linux), or Command+0 (macOS).
+
+
+
+<div class="divide-line"></div>
+
+#### DevTools 의 세팅을 줌하기
+
+![Devtools Settings](/assets/img/devtools/devtools_setting.jpg)
+
+
+> Devtools 의 세팅창을 Zoom In, Zoom Out 하려면 별도의 방법이 필요합니다.
+
+1. In DevTools Settings, click Close (x) in the upper right. DevTools 의 Setting 창을 열고 오른쪽 위의 Close (X) 버튼을 클릭합니다
+2. Change the zoom level of DevTools, as described above. DevTools 창에서 줌 설정을 다시합니다.
+3. Click the Settings (Settings icon) button. 다시 한 번 Settings 을 열어주시면 성공적으로 Settings 화면도 줌 설정이 완료되었습니다.
+To zoom DevTools by using the Command Menu:
+
+
+
+<div class="divide-line"></div>
+
+
+#### 커맨드 메뉴를 이용하여 DevTools 의 줌설정하기
+
+1. **...**버튼을 클릭하고 Run command 버튼을 클릭합니다.
+2. 아래의 명령어를 입력하여 줌설정을 합니다.
+  * Reset zoom level
+  * Zoom in
+  * Zoom out
+
+
+[마이크로소프트 문서참조](https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/overview)
