@@ -28,3 +28,18 @@ body {
       max-width: 900px;
     }
 }
+
+
+table * {
+  border : solid 1px black;
+}
+
+table {
+  width : 720px;
+}
+
+@media screen and (max-width: 720px) {
+  table {
+    width : 100%;
+  }
+}
