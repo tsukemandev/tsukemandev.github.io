@@ -112,6 +112,6 @@ A레코드와 CNAME레코드를 설정하고 Save 버튼을 클릭하면 10초 �
 
 ![Save the Custom Domain](/assets/img/git/github/success_dns_check_customdomain.jpg)
 
-커스텀 도메인 등록이 완료되었습니다.
+페이지 프로젝트 내부에 CNAME 이라는 파일이 하나 생성됨과 동시에 커스텀 도메인 등록이 완료되었습니다.
 
 이제부터 등록된 커스텀 도메인을 통해서 Github 페이지에 접근하면 됩니다.

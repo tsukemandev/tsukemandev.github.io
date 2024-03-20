@@ -8,58 +8,73 @@
 
 
 <url>
-  <loc>https://tsukemendog.github.io/</loc>
-  <lastmod>2024-03-19T11:30:22+00:00</lastmod>
+  <loc>https://streamdiaries.com/</loc>
+  <lastmod>2024-03-20T14:50:41+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://tsukemendog.github.io/ko/aws</loc>
-  <lastmod>2024-03-19T11:30:22+00:00</lastmod>
+  <loc>https://streamdiaries.com/ko/aws</loc>
+  <lastmod>2024-03-20T14:50:41+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://tsukemendog.github.io/ko/ubuntu</loc>
-  <lastmod>2024-03-19T11:30:22+00:00</lastmod>
+  <loc>https://streamdiaries.com/ko/ubuntu</loc>
+  <lastmod>2024-03-20T14:50:41+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://tsukemendog.github.io/ko/react</loc>
-  <lastmod>2024-03-19T11:30:22+00:00</lastmod>
+  <loc>https://streamdiaries.com/ko/react</loc>
+  <lastmod>2024-03-20T14:50:41+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://tsukemendog.github.io/ko/devtools</loc>
-  <lastmod>2024-03-19T11:30:22+00:00</lastmod>
+  <loc>https://streamdiaries.com/ko/devtools</loc>
+  <lastmod>2024-03-20T14:50:41+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://tsukemendog.github.io/ko/devtools/intro</loc>
-  <lastmod>2024-03-19T11:30:22+00:00</lastmod>
+  <loc>https://streamdiaries.com/ko/git</loc>
+  <lastmod>2024-03-20T14:50:41+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://tsukemendog.github.io/ko/react/manifestjson</loc>
-  <lastmod>2024-03-19T11:30:22+00:00</lastmod>
+  <loc>https://streamdiaries.com/ko/git/github/page-custom-domain</loc>
+  <lastmod>2024-03-20T14:50:41+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://tsukemendog.github.io/ko/ubuntu/nginx/hls/encoding</loc>
-  <lastmod>2024-03-19T11:30:22+00:00</lastmod>
+  <loc>https://streamdiaries.com/ko/devtools/intro</loc>
+  <lastmod>2024-03-20T14:50:41+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://tsukemendog.github.io/ko/ubuntu/nginx/https/issue</loc>
-  <lastmod>2024-03-19T11:30:22+00:00</lastmod>
+  <loc>https://streamdiaries.com/ko/react/manifestjson</loc>
+  <lastmod>2024-03-20T14:50:41+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://tsukemendog.github.io/ko/ubuntu/nginx/hls/install-nginx-compile</loc>
-  <lastmod>2024-03-19T11:30:22+00:00</lastmod>
+  <loc>https://streamdiaries.com/ko/ubuntu/nginx/hls/encoding</loc>
+  <lastmod>2024-03-20T14:50:41+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://tsukemendog.github.io/ko/ubuntu/nginx/hls/intro</loc>
-  <lastmod>2024-03-19T11:30:22+00:00</lastmod>
+  <loc>https://streamdiaries.com/ko/ubuntu/nginx/https/issue</loc>
+  <lastmod>2024-03-20T14:50:41+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://streamdiaries.com/ko/aws/s3/cloudfront/issue/cors</loc>
+  <lastmod>2024-03-20T14:50:41+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://streamdiaries.com/ko/ubuntu/nginx/hls/install-nginx-compile</loc>
+  <lastmod>2024-03-20T14:50:41+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://streamdiaries.com/ko/ubuntu/nginx/hls/intro</loc>
+  <lastmod>2024-03-20T14:50:41+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 
