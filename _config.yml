@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Stream Diaries
+title: StreamDiaries
 email: tsukemendog@gmail.com
 description: Explore the world of IT engineering through our blog, where we unravel the complexities of technology, offer insightful tutorials, and share personal experiences from the front lines of development. Join a community passionate about innovation, where every post is an opportunity to learn, connect, and grow in the ever-evolving tech landscape.
 author:             MS KWON
