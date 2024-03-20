@@ -21,7 +21,7 @@
 title: StreamDiaries
 email: tsukemendog@gmail.com
 description: Explore the world of IT engineering through our blog, where we unravel the complexities of technology, offer insightful tutorials, and share personal experiences from the front lines of development. Join a community passionate about innovation, where every post is an opportunity to learn, connect, and grow in the ever-evolving tech landscape.
-author:             MS KWON
+author: tsukemendog
 baseurl: "" # the subpath of your site, e.g. /blog
 # url: "http://localhost:4000" # the base hostname & protocol for your site, e.g. http://example.com
 url: "https://streamdiaries.com"
