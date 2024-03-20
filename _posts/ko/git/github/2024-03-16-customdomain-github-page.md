@@ -5,7 +5,7 @@ permalink: /ko/:categories/page-custom-domain
 date:  2024-03-16 20:12:15
 categories: git github
 excerpt: Github 에서는 페이지가 호스팅 되어질 repository 를 생성하여 무료로 자신의 페이지를 호스팅 할 수 있습니다. 하지만 repository 이름은 github 에서 필수적으로 정해주는 규칙(username.github.io)으로 생성해야 페이지가 호스팅되어지고 도메인 역시 username.github.io 라는 repository 이름과 똑같이 설정되어지는 제약이 있습니다.
-thumbnail: /devtools/Microsoft_Edge_Dev_Icon.png
+thumbnail: /git/github/github-logo.png
 ---
 
 ## 무료로 Github 페이지 호스팅하기
