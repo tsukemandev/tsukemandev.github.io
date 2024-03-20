@@ -18,13 +18,13 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: SizzleCode Kitchen
+title: Stream Diaries
 email: tsukemendog@gmail.com
-description:        IT Tech and Diary
+description: Explore the world of IT engineering through our blog, where we unravel the complexities of technology, offer insightful tutorials, and share personal experiences from the front lines of development. Join a community passionate about innovation, where every post is an opportunity to learn, connect, and grow in the ever-evolving tech landscape.
 author:             MS KWON
 baseurl: "" # the subpath of your site, e.g. /blog
 # url: "http://localhost:4000" # the base hostname & protocol for your site, e.g. http://example.com
-url: "https://tsukemendog.github.io"
+url: "https://streamdiaries.com"
 # twitter_username: jekyllrb
 github_username:  tsukemendog
 
