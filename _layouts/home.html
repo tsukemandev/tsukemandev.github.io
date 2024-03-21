@@ -3,19 +3,25 @@ layout: default
 ---
 
 <main>
-  <article style="background-color: var(--color4)">
-    <section>
-      {% for post in site.posts %}
-      <article class="post col-3 col-s-4 col-sm-6">
+  <section>
+    {% for post in site.posts %}
+    <article class="post">
+      <div class="flex-1">
         <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
           <!--<img src="{{ post.thumbnail | prepend: site.image_base_url | replace: '//', '/' }}" alt=""/>-->
-          <img src="/assets/img/{{ post.thumbnail }}" alt="thumbnail image" />
-          
-          <div class="article-title">{{ post.title }}</div>
+          <div class="thumbnail-background">
+            <img src="/assets/img/{{ post.thumbnail }}" alt="{{ post.title }} thumbnail image" />
+          </div>
+        </a>  
+      </div>
+
+      <div class="flex-3 article-description">
+        <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
+          <h2 class="article-title">{{ post.title }}</h2>
           <div class="article-date"><time>{{ post.date | date: "%B %d, %Y" }}</time></div>
-        </a>
-      </article>
-      {% endfor %}
-    </section>
-  </article>
+        </a>  
+      </div>
+    </article>
+    {% endfor %}
+  </section>
 </main>
