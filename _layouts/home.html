@@ -12,16 +12,19 @@ layout: default
           <div class="thumbnail-background">
             <img src="/assets/img/{{ post.thumbnail }}" alt="{{ post.title }} thumbnail image" />
           </div>
-        </a>  
+        </a>
       </div>
 
-      <div class="flex-3 article-description">
+      <div class="flex-3 article-box">
         <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
           <h2 class="article-title">{{ post.title }}</h2>
+          <div class="article-description">{{ post.excerpt }}</div>
           <div class="article-date"><time>{{ post.date | date: "%B %d, %Y" }}</time></div>
-        </a>  
+        </a>
       </div>
     </article>
     {% endfor %}
   </section>
 </main>
+
+<script src="/js/main.js"></script>
