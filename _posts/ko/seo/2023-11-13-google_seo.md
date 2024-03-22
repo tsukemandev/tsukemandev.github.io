@@ -70,3 +70,6 @@ thumbnail: /react/webmanifest_thumbnail.webp
 
 이것 역시 재색인이 되기까지 시간이 걸릴 것으로 추측됩니다.
 
+<div class="divide-line"></div>
+
+본 포스팅은 해당 [참조 문서](https://www.quora.com/If-I-request-to-remove-a-URL-in-the-Google-Search-console-can-I-ask-it-to-re-index-it-also-If-yes-then-how)를 참조 하였습니다.

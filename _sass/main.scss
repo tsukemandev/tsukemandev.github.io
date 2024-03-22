@@ -5,6 +5,13 @@ body {
   }
 }
 
+header {
+  a {
+    text-decoration: none;
+    color : white;
+  }
+}
+
 nav {
   display: flex; /* flexbox 레이아웃을 사용합니다. */
   flex-wrap: wrap; /* 항목들이 너비를 초과할 경우 다음 줄로 개행합니다. */
