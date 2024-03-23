@@ -2,7 +2,7 @@
 layout: post
 title:  "AWS S3 CORS 문제로 인해 Cloud Front 리소스 차단문제 해결방법"
 permalink: /ko/:categories/cors
-date:  2023-10-05 22:04:15
+date:  2023-10-24 22:31:15
 categories: aws s3 cloudfront issue
 excerpt: S3 CORS 문제로 인해 Cloud Front 리소스 차단문제 해결방법
 thumbnail: /aws/s3/amazon-s3-logo.svg
