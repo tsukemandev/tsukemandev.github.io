@@ -1,28 +1,38 @@
 <head lang="ko">
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  
-    <title>
-      {% if page.title %}{{ page.title | escape }} - {{ site.title | escape }}
-      {% else %}{{ site.title | escape }}{% endif %}
-    </title>
-  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="64x64" href="/favicon/favicon-64x64.png">
-    <link rel="icon" type="image/png" sizes="48x48" href="/favicon/favicon-48x48.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="24x24" href="/favicon/favicon-24x24.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
-    <link rel="manifest" href="/favicon/manifest.json">
+  <title>
+    {% if page.title %}{{ page.title | escape }} - {{ site.title | escape }}
+    {% else %}{{ site.title | escape }}{% endif %}
+  </title>
 
-    <meta name="google-site-verification" content="NZ-dmFvSI0rCNXL-or3xqB6iyBNGK4vCV7sxQedrM4s" />
-    <link rel="stylesheet" href="{{'/assets/css/styles.css' | relative_url }}">
 
-    <meta name="naver-site-verification" content="7b5828001fdcc2dfbdb56c253d6d3890ab16b8a6" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="64x64" href="/favicon/favicon-64x64.png">
+  <link rel="icon" type="image/png" sizes="48x48" href="/favicon/favicon-48x48.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="24x24" href="/favicon/favicon-24x24.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+  <link rel="manifest" href="/favicon/manifest.json">
 
-    {% seo %}
-  
+  <meta name="google-site-verification" content="NZ-dmFvSI0rCNXL-or3xqB6iyBNGK4vCV7sxQedrM4s" />
+  <link rel="stylesheet" href="{{'/assets/css/styles.css' | relative_url }}">
+
+  <meta name="naver-site-verification" content="7b5828001fdcc2dfbdb56c253d6d3890ab16b8a6" />
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-WV3YNCXLXP"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-WV3YNCXLXP');
+  </script>
+
+
+  {% seo %}
+
 </head>
-  
