@@ -4,7 +4,7 @@ title:  "AWS S3 CORS 문제로 인해 Cloud Front 리소스 차단문제 해결�
 permalink: /ko/:categories/cors
 date:  2023-10-24 22:31:15
 categories: aws s3 cloudfront issue
-excerpt: S3 CORS 문제로 인해 Cloud Front 리소스 차단문제 해결방법
+excerpt: CORS(Cross-Origin Resource Sharing)는 다른 Origin에서 실행 중인 웹 애플리케이션이 현재 Origin의 리소스에 접근할 수 있도록 허용하는 메커니즘입니다. 웹은 기본적으로 '동일 출처 정책'(Same-Origin Policy)을 따르기 때문에, 다른 Origin의 리소스를 불러오는 것은 제한되어 있어요. S3에서 해당 정책을 변경해보겠습니다.
 thumbnail: /aws/s3/amazon-s3-logo.svg
 ---
 
