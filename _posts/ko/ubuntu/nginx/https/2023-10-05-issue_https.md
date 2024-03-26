@@ -6,6 +6,10 @@ date:  2023-10-05 22:04:15
 categories: ubuntu nginx https
 excerpt: Nginx 서버에 Let's Encrypt를 통해 무료 HTTPS 인증서를 발급받고 설정하는 방법을 단계별로 안내합니다. SSL/TLS 인증서를 통해 웹 사이트의 보안을 강화하는 과정을 설명합니다.
 thumbnail: /ubuntu/nginx/https/lets-encrypt-logo.png
+image: /assets/img/ubuntu/nginx/https/lets-encrypt-logo.png
+author: tsukemendog
+locale: ko_KR
+tags: https,letsencrypt,certbot
 ---
 
 

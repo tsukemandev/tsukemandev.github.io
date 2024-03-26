@@ -6,6 +6,10 @@ date:  2023-11-13 21:14:15
 categories: seo google
 excerpt: 구글 웹 마스터 도구는 구글봇이 페이지를 색인할 수 있도록 도와주는 온라인 도구입니다. 원하는 페이지를 색인신청한다면 반대로 삭제도 할 수 있습니다. 웹 마스터 도구에서 색인을 삭제 하는 방법을 설명하겠습니다.
 thumbnail: /seo/google-bot.png
+image: /assets/img/seo/google-bot.png
+author: tsukemendog
+locale: ko_KR
+tags: SEO,구글색인,googleindex,색인삭제
 ---
 
 ## 웹 마스터 도구 접속

@@ -6,6 +6,10 @@ date:  2023-10-15 21:14:15
 categories: react
 excerpt: 웹 매니페스트(manifest.json) 파일은 웹 애플리케이션이나 웹사이트를 사용자의 데스크탑이나 모바일 홈 화면에 "앱처럼" 추가할 수 있게 해주는 JSON 파일입니다. 이 파일은 웹 애플리케이션에 대한 메타데이터를 제공하며, 애플리케이션의 이름, 시작 URL, 아이콘, 배경 색상, 표시 방식 등을 정의할 수 있습니다. 이를 통해 웹 애플리케이션이 네이티브 앱처럼 보이고 느껴질 수 있게 도와줍니다.
 thumbnail: /react/webmanifest_thumbnail.webp
+image: /assets/img/react/webmanifest_thumbnail.webp
+author: tsukemendog
+locale: ko_KR
+tags: React,manifestjson
 ---
 
 ## 개요

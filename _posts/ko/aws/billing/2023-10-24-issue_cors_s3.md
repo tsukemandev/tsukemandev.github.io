@@ -6,6 +6,10 @@ date:  2024-03-20 19:31:15
 categories: aws billing
 excerpt: AWS 프리티어가 지원되는 서비스를 이용하면 별도 요금없이 무료로 이용가능합니다. 하지만 의도치않게 VPC 요금이 과금되는 문제가 발생하였는데 이에 대한 원인을 확인해보았습니다.
 thumbnail: /aws/billing/aws-cost-explorer.png
+image: /assets/img/aws/billing/aws-cost-explorer.png
+author: tsukemendog
+locale: ko_KR
+tags: AWS,프리티어,VPC요금
 ---
 
 ## 프리티어를 이용했는데 VPC 요금이 과금되었습니다..
@@ -16,6 +20,7 @@ thumbnail: /aws/billing/aws-cost-explorer.png
 
 해당 [AWS 프리티어 항목 참조](https://aws.amazon.com/free/?all-free-tier.sort-by=item.additionalFields.SortRank&all-free-tier.sort-order=asc&awsf.Free%20Tier%20Types=*all&awsf.Free%20Tier%20Categories=*all) 에서 확인하실 수 있습니다.
 
+{{page.img_url}}
 
 <br>
 

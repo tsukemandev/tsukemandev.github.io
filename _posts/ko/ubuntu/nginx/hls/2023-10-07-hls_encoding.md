@@ -6,6 +6,10 @@ date:  2023-10-07 22:04:15
 categories: ubuntu nginx hls
 excerpt: avi, mkv, wmv 포맷과 같은 일반 비디오 포맷은 HLS 스트리밍을 할수없습니다. H.264로 인코딩을 해주어야하는데 FFmpeg 라는 소프트웨어를 활용하여 인코딩 작업을 하도록 하겠습니다. 
 thumbnail: /ubuntu/nginx/hls/hls_thumbnail_01.jpg
+image: /assets/img/ubuntu/nginx/hls/hls_thumbnail_01.jpg
+author: tsukemendog
+locale: ko_KR
+tags: hls,nginx
 ---
 
 

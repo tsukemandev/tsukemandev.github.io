@@ -20,7 +20,7 @@
 
 title: StreamDiaries
 email: tsukemendog@gmail.com
-description: 저희 "Stream Diaries"는 기술의 최전선에서 무슨 일이 일어나고 있는지, 어떤 새로운 트렌드가 형성되고 있는지를 탐구합니다. 프로그래밍 언어부터 인공지능, 클라우드 컴퓨팅에 이르기까지, IT의 모든 분야를 아우르며, 그 속에서 발견한 통찰과 지식을 공유하려 합니다.
+description: 새로운 IT 트렌드 및 프로그래밍 언어부터 인공지능, 클라우드 컴퓨팅에 이르기까지, IT의 모든 분야를 아우르며, 그 속에서 발견한 통찰과 지식을 공유하려 합니다.
 author: tsukemendog
 baseurl: "" # the subpath of your site, e.g. /blog
 # url: "http://localhost:4000" # the base hostname & protocol for your site, e.g. http://example.com

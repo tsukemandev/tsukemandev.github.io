@@ -6,6 +6,10 @@ date:  2023-10-19 21:14:15
 categories: devtools
 excerpt: 이번 포스팅에서는 프론트엔드 개발의 필수인 브라우저 개발자도구(devtools) 를 소개하고 개발자도구(devtools)를 여는 방법에 대해 간단하게 소개합니다.
 thumbnail: /devtools/Microsoft_Edge_Dev_Icon.png
+image: /assets/img/devtools/Microsoft_Edge_Dev_Icon.png
+author: tsukemendog
+locale: ko_KR
+tags: Devtools,Edge
 ---
 
 
