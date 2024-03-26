@@ -47,7 +47,7 @@ HLS 영상파일을 S3에 배포한 이후 Cloud Front 로 배포하고 Video.js
 
 Cloud Front 는 S3 버킷 저장소 내의 리소스를 배포하는 CDN서비스입니다.
 
-결론적으로 Cloud Front 가 아닌 S3 의 CORS 정책을 수정해주면 됩니다.
+결론적으로 S3의 CORS 정책을 수정해준이후 Cloud Front 에서 이를 반영하게 해주면 됩니다.
 
 <div class="divide-line"></div>
 
@@ -79,35 +79,11 @@ Cloud Front 는 S3 버킷 저장소 내의 리소스를 배포하는 CDN서비�
             "*"
         ],
         "AllowedMethods": [
+            "GET",
             "PUT",
             "POST",
-            "DELETE"
-        ],
-        "AllowedOrigins": [
-            "*"
-        ],
-        "ExposeHeaders": []
-    },
-    {
-        "AllowedHeaders": [
-            "*"
-        ],
-        "AllowedMethods": [
-            "PUT",
-            "POST",
-            "DELETE"
-        ],
-        "AllowedOrigins": [
-            "*"
-        ],
-        "ExposeHeaders": []
-    },
-    {
-        "AllowedHeaders": [
-            "*"
-        ],
-        "AllowedMethods": [
-            "GET"
+            "DELETE",
+            "HEAD"
         ],
         "AllowedOrigins": [
             "*"
@@ -120,6 +96,19 @@ Cloud Front 는 S3 버킷 저장소 내의 리소스를 배포하는 CDN서비�
 
 >  **위 예시는 테스트 버킷에 대한 정책이므로 permitAll 로 설정했을뿐 필요에 따른 정책을 설정하시길 바랍니다.**
 
-위 예시는 [AWS CORS 문서](https://docs.aws.amazon.com/sdk-for-javascript/v3/developer-guide/cors.html)를 참조했습니다.
+<div class="divide-line"></div>
 
-S3의 CORS 정책허용설정을 해주시면 CORS 문제는 해결됩니다.
+### Cloud Front CORS 정책수정
+
+![Edit CORS POLICY FOR Cloud Front](/assets/img/aws/s3/cloudfront-distributions.jpg)
+
+![Edit CORS POLICY FOR Cloud Front](/assets/img/aws/s3/cloudfront-distribution-behavior01.jpg)
+
+![Edit CORS POLICY FOR Cloud Front](/assets/img/aws/s3/cloudfront-distribution-behavior02.jpg)
+
+
+위 예시는 [AWS S3 CORS 문서](https://docs.aws.amazon.com/sdk-for-javascript/v3/developer-guide/cors.html)를 참조했습니다.
+
+그리고 Cloud Front CORS 정책 설정의 경우는 해당 [AWS Cloud Front CORS 문서](https://repost.aws/knowledge-center/no-access-control-allow-origin-error) 를 참조하였습니다.
+
+
