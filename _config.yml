@@ -20,8 +20,8 @@
 
 title: StreamDiaries
 email: tsukemendog@gmail.com
-description: 새로운 IT 트렌드 및 프로그래밍 언어부터 인공지능, 클라우드 컴퓨팅에 이르기까지, IT의 모든 분야를 아우르며, 그 속에서 발견한 통찰과 지식을 공유하려 합니다.
-author: tsukemendog
+description: IT Tech Blog
+author: MoonSu Kwon
 baseurl: "" # the subpath of your site, e.g. /blog
 # url: "http://localhost:4000" # the base hostname & protocol for your site, e.g. http://example.com
 url: "https://streamdiaries.com"

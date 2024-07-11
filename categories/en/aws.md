@@ -2,6 +2,6 @@
 layout: category
 title: "aws"
 category: aws
-permalink: /ko/aws
-locale: ko_KR
+permalink: /en/aws
+locale: en_US
 ---

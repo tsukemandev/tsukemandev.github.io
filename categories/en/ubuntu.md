@@ -2,6 +2,6 @@
 layout: category
 title: "ubuntu"
 category: ubuntu
-permalink: /ko/ubuntu
-locale: ko_KR
+permalink: /en/ubuntu
+locale: en_US
 ---

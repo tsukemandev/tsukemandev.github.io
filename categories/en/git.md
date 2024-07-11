@@ -2,6 +2,6 @@
 layout: category
 title: "git"
 category: git
-permalink: /ko/git
-locale: ko_KR
+permalink: /en/git
+locale: en_US
 ---

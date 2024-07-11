@@ -4,7 +4,7 @@ layout: default
 
 <main>
   <section>
-    {% for post in site.posts %} {% if post.categories contains page.category%}
+    {% for post in site.posts %} {% if post.categories contains page.category and post.locale contains page.locale %}
     <article class="post">
       <div class="flex-1">
         <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
