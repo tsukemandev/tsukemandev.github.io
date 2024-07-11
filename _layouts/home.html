@@ -4,7 +4,7 @@ layout: default
 
 <main>
   <section>
-    {% for post in site.posts %}
+    {% for post in site.posts %} {% if post.locale == 'en_US' %}
     <article class="post">
       <div class="flex-1">
         <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
@@ -23,7 +23,7 @@ layout: default
         </a>
       </div>
     </article>
-    {% endfor %}
+    {% endif %}{% endfor %}
   </section>
 </main>
 
