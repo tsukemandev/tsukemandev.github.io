@@ -9,93 +9,103 @@
 
 <url>
   <loc>https://tsukemandev.github.io/</loc>
-  <lastmod>2024-03-28T12:53:33+00:00</lastmod>
+  <lastmod>2024-08-10T11:57:02+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://tsukemandev.github.io/ko/aws</loc>
-  <lastmod>2024-03-28T12:53:33+00:00</lastmod>
+  <loc>https://tsukemandev.github.io/en/aws</loc>
+  <lastmod>2024-08-10T11:57:02+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://tsukemandev.github.io/ko/ubuntu</loc>
-  <lastmod>2024-03-28T12:53:33+00:00</lastmod>
+  <loc>https://tsukemandev.github.io/en/ubuntu</loc>
+  <lastmod>2024-08-10T11:57:02+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://tsukemandev.github.io/ko/react</loc>
-  <lastmod>2024-03-28T12:53:33+00:00</lastmod>
+  <loc>https://tsukemandev.github.io/en/react</loc>
+  <lastmod>2024-08-10T11:57:02+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://tsukemandev.github.io/ko/devtools</loc>
-  <lastmod>2024-03-28T12:53:33+00:00</lastmod>
+  <loc>https://tsukemandev.github.io/en/devtools</loc>
+  <lastmod>2024-08-10T11:57:02+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://tsukemandev.github.io/ko/git</loc>
-  <lastmod>2024-03-28T12:53:33+00:00</lastmod>
+  <loc>https://tsukemandev.github.io/en/git</loc>
+  <lastmod>2024-08-10T11:57:02+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://tsukemandev.github.io/ko/seo</loc>
-  <lastmod>2024-03-28T12:53:33+00:00</lastmod>
+  <loc>https://tsukemandev.github.io/en/seo</loc>
+  <lastmod>2024-08-10T11:57:02+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://tsukemandev.github.io/ko/react/videojs/reference-error</loc>
-  <lastmod>2024-03-28T12:53:33+00:00</lastmod>
+  <loc>https://tsukemandev.github.io/en/react/videojs/reference-error</loc>
+  <lastmod>2024-08-10T11:57:02+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://tsukemandev.github.io/ko/aws/billing/freetier</loc>
-  <lastmod>2024-03-28T12:53:33+00:00</lastmod>
+  <loc>https://tsukemandev.github.io/en/aws/billing/freetier</loc>
+  <lastmod>2024-08-10T11:57:02+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://tsukemandev.github.io/ko/git/github/page-custom-domain</loc>
-  <lastmod>2024-03-28T12:53:33+00:00</lastmod>
+  <loc>https://tsukemandev.github.io/en/git/github/page-custom-domain</loc>
+  <lastmod>2024-08-10T11:57:02+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://tsukemandev.github.io/ko/seo/google/removal</loc>
-  <lastmod>2024-03-28T12:53:33+00:00</lastmod>
+  <loc>https://tsukemandev.github.io/en/seo/google/removal</loc>
+  <lastmod>2024-08-10T11:57:02+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://tsukemandev.github.io/ko/aws/s3/cloudfront/issue/cors</loc>
-  <lastmod>2024-03-28T12:53:33+00:00</lastmod>
+  <loc>https://tsukemandev.github.io/en/aws/s3/cloudfront/issue/cors</loc>
+  <lastmod>2024-08-10T11:57:02+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://tsukemandev.github.io/ko/devtools/intro</loc>
-  <lastmod>2024-03-28T12:53:33+00:00</lastmod>
+  <loc>https://tsukemandev.github.io/en/devtools/intro</loc>
+  <lastmod>2024-08-10T11:57:02+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://tsukemandev.github.io/ko/react/manifestjson</loc>
-  <lastmod>2024-03-28T12:53:33+00:00</lastmod>
+  <loc>https://tsukemandev.github.io/en/react/manifestjson</loc>
+  <lastmod>2024-08-10T11:57:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://tsukemandev.github.io/en/ubuntu/nginx/hls/encoding</loc>
+  <lastmod>2024-08-10T11:57:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://tsukemandev.github.io/en/ubuntu/nginx/https/issue</loc>
+  <lastmod>2024-08-10T11:57:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://tsukemandev.github.io/en/ubuntu/nginx/hls/install-nginx-compile</loc>
+  <lastmod>2024-08-10T11:57:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://tsukemandev.github.io/en/ubuntu/nginx/hls/intro</loc>
+  <lastmod>2024-08-10T11:57:02+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://tsukemandev.github.io/ko/ubuntu/nginx/hls/encoding</loc>
-  <lastmod>2024-03-28T12:53:33+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://tsukemandev.github.io/ko/ubuntu/nginx/https/issue</loc>
-  <lastmod>2024-03-28T12:53:33+00:00</lastmod>
-  <priority>0.80</priority>
+  <lastmod>2024-08-10T11:57:02+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://tsukemandev.github.io/ko/ubuntu/nginx/hls/install-nginx-compile</loc>
-  <lastmod>2024-03-28T12:53:33+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://tsukemandev.github.io/ko/ubuntu/nginx/hls/intro</loc>
-  <lastmod>2024-03-28T12:53:33+00:00</lastmod>
-  <priority>0.80</priority>
+  <lastmod>2024-08-10T11:57:02+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 
 
