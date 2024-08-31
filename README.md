@@ -1,1 +1,3 @@
-커스터 마이징 Jekyll 블로그
+A technical blog with a custom Jekyll layout
+
+<a href="https://tsukemandev.github.io">Go to my blog</a>
